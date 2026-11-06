@@ -36,3 +36,6 @@ El JAR se genera en `potlock-source/build/libs/`.
 ## GitHub Actions
 
 Cada push a `main` compila el mod y deja el JAR descargable como artifact en la ejecucion de Actions. Al publicar un tag con formato `v*` (por ejemplo, `v1.0.1`), Actions compila el proyecto y publica un Release publico con el JAR adjunto.
+
+
+Hecho con IA
