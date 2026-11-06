@@ -1,0 +1,14 @@
+POT SLOT LOCK (Fabric 1.20.1) - bloqueo de slots para la olla de Farmer's Delight
+
+USO EN EL JUEGO
+1. Abre la olla y pon los ingredientes en los slots de la receta.
+2. Pulsa "Bloquear slots" (boton a la derecha de la GUI).
+3. Cada slot queda fijado al item que tenia; los slots vacios quedan deshabilitados (oscuros).
+   Las tolvas solo podran meter ese item en ese slot. Pulsa "Desbloquear slots" para volver a lo normal.
+   (Tu puedes seguir poniendo cualquier cosa a mano.)
+
+COMO COMPILARLO (necesita internet, no esta probado todavia)
+A) Con Java 17 instalado:   ./gradlew build     (en Windows: gradlew.bat build)
+   El .jar queda en build/libs/potlock-1.0.0.jar -> copialo a tu carpeta mods.
+B) Sin instalar nada: sube esta carpeta a un repositorio de GitHub; la pestana "Actions"
+   compila sola (archivo .github/workflows/build.yml) y deja el .jar para descargar.

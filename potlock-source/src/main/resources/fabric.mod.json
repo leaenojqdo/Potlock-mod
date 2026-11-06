@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "potlock",
+  "version": "${version}",
+  "name": "Pot Slot Lock",
+  "description": "Permite bloquear los slots de entrada de la olla de Farmer's Delight para que las tolvas puedan automatizar recetas sin romperlas.",
+  "authors": ["alemitacos777"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.potlock.PotLock"]
+  },
+  "mixins": ["potlock.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "farmersdelight": "*"
+  }
+}

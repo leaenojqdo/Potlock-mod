@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.potlock.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CookingPotBlockEntityMixin",
+    "CookingPotItemHandlerMixin"
+  ],
+  "client": [
+    "CookingPotScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

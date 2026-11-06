@@ -1,0 +1,6 @@
+{
+  "potlock.button.lock": "Lock slots",
+  "potlock.button.unlock": "Unlock slots",
+  "potlock.tooltip": "Locks each input slot to the item it holds right now. Automation (hoppers, pipes) will only be able to put that item in that slot. Empty slots get disabled.",
+  "potlock.message.empty": "Put the ingredients in the slots first, then lock."
+}

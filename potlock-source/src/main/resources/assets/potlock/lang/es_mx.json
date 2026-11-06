@@ -1,0 +1,6 @@
+{
+  "potlock.button.lock": "Bloquear slots",
+  "potlock.button.unlock": "Desbloquear slots",
+  "potlock.tooltip": "Bloquea cada slot de entrada al item que tiene ahora. La automatizacion (tolvas, tuberias) solo podra meter ese item en ese slot. Los slots vacios quedan deshabilitados.",
+  "potlock.message.empty": "Primero pon los ingredientes en los slots y despues bloquea."
+}
