@@ -2,6 +2,8 @@
 
 Mod para Fabric 1.20.1 que permite bloquear los slots de ingredientes de la olla de Farmer's Delight.
 
+Autor: [leaenojqdo](https://github.com/leaenojqdo).
+
 ## Que hace
 
 - Fija cada slot al item que tenia al activar el bloqueo.
@@ -10,14 +12,15 @@ Mod para Fabric 1.20.1 que permite bloquear los slots de ingredientes de la olla
 - Permite seguir modificando la olla manualmente.
 - Permite desbloquear los slots para volver al comportamiento normal.
 
-## Cambios de la version 1.0.1
+## Cambios de la version 1.0.2
 
 - El boton para bloquear o desbloquear los slots ahora aparece centrado debajo del inventario del jugador.
 - Se agrego compilacion automatica con GitHub Actions y publicacion del JAR como Release.
+- Se actualizo el autor mostrado en los metadatos del mod a `leaenojqdo`.
 
 ## Descargar e instalar
 
-Descarga `potlock-1.0.1.jar` desde [Releases](https://github.com/leaenojqdo/Potlock-mod/releases/latest) y colocalo en la carpeta `mods` del perfil de Minecraft. Necesitas Fabric y Farmer's Delight para Minecraft 1.20.1.
+Descarga `potlock-1.0.2.jar` desde [Releases](https://github.com/leaenojqdo/Potlock-mod/releases/latest) y colocalo en la carpeta `mods` del perfil de Minecraft. Necesitas Fabric y Farmer's Delight para Minecraft 1.20.1.
 
 ## Compilar
 

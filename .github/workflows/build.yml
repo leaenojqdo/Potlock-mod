@@ -44,11 +44,13 @@ jobs:
           name: Pot Slot Lock ${{ github.ref_name }}
           body: |
             Pot Slot Lock para Fabric 1.20.1 y Farmer's Delight.
+            Autor: leaenojqdo (https://github.com/leaenojqdo).
 
             Bloquea cada slot de ingredientes al item que tenia cuando se activo. Los slots vacios quedan bloqueados para la automatizacion; se puede seguir editando la olla manualmente y desbloquearla para restaurar el comportamiento normal.
 
             Cambios de esta version:
             - El boton de bloqueo ahora esta centrado debajo del inventario del jugador.
+            - Los metadatos identifican a leaenojqdo como autor.
             - El proyecto compila y publica el JAR mediante GitHub Actions.
 
             Requiere Fabric y Farmer's Delight para Minecraft 1.20.1.

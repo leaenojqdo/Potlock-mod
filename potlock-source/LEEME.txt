@@ -1,6 +1,7 @@
 POT SLOT LOCK (Fabric 1.20.1)
 
 Bloquea los slots de ingredientes de la olla de Farmer's Delight para controlar lo que insertan las tolvas.
+Autor: leaenojqdo (https://github.com/leaenojqdo)
 
 USO EN EL JUEGO
 1. Abre la olla y coloca los ingredientes en los slots de la receta.
