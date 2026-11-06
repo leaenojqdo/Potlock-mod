@@ -39,7 +39,7 @@ public abstract class CookingPotScreenMixin extends AbstractContainerScreen<Cook
             FriendlyByteBuf buf = PacketByteBufs.create();
             buf.writeBlockPos(this.menu.blockEntity.getBlockPos());
             ClientPlayNetworking.send(PotLockNetworking.TOGGLE, buf);
-        }).bounds(this.leftPos + this.imageWidth + 4, this.topPos + 16, 78, 20).build();
+        }).bounds(this.leftPos + (this.imageWidth - 78) / 2, this.topPos + this.imageHeight + 4, 78, 20).build();
         this.potlock$button.setTooltip(Tooltip.create(Component.translatable("potlock.tooltip")));
         this.addRenderableWidget(this.potlock$button);
     }
@@ -48,8 +48,8 @@ public abstract class CookingPotScreenMixin extends AbstractContainerScreen<Cook
     @Inject(method = "render", at = @At("HEAD"))
     private void potlock$updateButton(GuiGraphics graphics, int mouseX, int mouseY, float partialTick, CallbackInfo ci) {
         if (this.potlock$button == null) return;
-        this.potlock$button.setX(this.leftPos + this.imageWidth + 4);
-        this.potlock$button.setY(this.topPos + 16);
+        this.potlock$button.setX(this.leftPos + (this.imageWidth - this.potlock$button.getWidth()) / 2);
+        this.potlock$button.setY(this.topPos + this.imageHeight + 4);
         boolean locked = ((PotLockAccess) (Object) this.menu.blockEntity).potlock$isLocked();
         this.potlock$button.setMessage(Component.translatable(locked ? "potlock.button.unlock" : "potlock.button.lock"));
     }
